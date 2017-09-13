@@ -1,0 +1,282 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  padding-top: 54px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(188,207,181) !important;
+}
+
+/*Navigation Bar */
+
+.navbar {
+  background-color: white; /*rgb(188,207,181) !important;*/
+  color: black !important; /*rgb(255,215,0) !important; rgb(248,215,74) !important;*/
+  border: none;
+  border-bottom: 4px solid rgb(148,119,69); /*rgb(161,132,84);*/
+  font-family: "Pacifico", sans-serif;
+  font-size: 2rem;
+}
+
+.nav li a {
+  text-align: center;
+  color: rgb(40,40,40)!important;
+  /* color:  rgb(161,132,84) !important; rgb(152,101,21) */
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: auto;
+    float: none;
+    width: 100%;
+}
+.navbar-nav>li {
+    display: table-cell;
+    float: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 1rem;
+  }
+
+}
+
+/* Body Blocks */
+
+.block {
+  text-align: center;
+  color: rgb(148,119,69) !important;
+  padding-bottom: 2rem;
+}
+
+.block h2 {
+  margin: 2rem 0 2rem 0;
+}
+
+/* Wedding Date */
+
+#wedding {
+  background-color: rgb(188,207,181); rgb(211,255,229);
+  text-align: center;
+  color: rgb(148,119,69); rgb(161,132,84);
+}
+
+#wedding h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Pacifico", serif;
+}
+
+#wedding h2 {
+  font-size: 4rem;
+}
+#date h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.image-container img {
+  margin-top: 0.75rem;
+  height: 28rem;
+  width: auto;
+}
+
+#Pacifico {
+  font-family: 'Pacifico', cursiv
+}
+
+#Cabin {
+  font-family: 'Cabin', sans-serif;
+}
+
+#Amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+  #wedding h1 {
+    font-size: 3rem;
+  }
+
+  #wedding h2 {
+    font-size: 2rem;
+  }
+
+}
+
+/* Location Block */
+
+.location {
+  background-color: white !important; /*rgb(232,173,169);*/
+}
+
+.row {
+  margin: 0 2rem 0 2rem;
+}
+
+.block h2 {
+  color: rgb(40,40,40);
+  font-family: "Pacifico", serif;
+  font-size: 2.5rem;
+
+}
+
+.location h1 {
+  font-size: 5rem;
+}
+
+.location a {
+  color: rgb(148,119,69) !important;
+
+}
+
+.location p {
+  margin-top: 1.5rem;
+  color: black;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.right{
+  text-align: center;
+}
+
+.right img:hover {
+  border: 3px solid rgb(152,101,21);
+}
+
+.left {
+  text-align: right;
+}
+
+.location h2 {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-container img {
+      margin-top: 1rem;
+      height: 18rem;
+      width: auto;
+    }
+
+    .left {
+      text-align: center;
+    }
+
+
+    .location p {
+      font-size: 1.2rem;
+    }
+
+    .location h1 {
+      font-size: 3rem;
+    }
+
+    .row {
+      margin: 0 1rem 0 1rem;
+    }
+
+    .location h2 {
+      font-size: 2rem;
+    }
+
+    iframe {
+      width: 75%;
+      height: auto;
+    }
+
+}
+
+/* Our Story Block */
+
+.story {
+  background-color: rgb(188,207,181);
+}
+
+.story p {
+  text-align: justify;
+}
+
+.story p a {
+  color: rgb(148,119,69) !important;
+  font-style: italic;
+}
+
+#april {
+  text-align: center;
+}
+
+.proposal {
+  margin: 0;
+}
+
+.proposal img {
+  height: 35rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .proposal img {
+    height: 28rem;
+  }
+}
+
+/* Events/Hotels Block */
+
+.events {
+  background-color: white;
+}
+
+/* Wedding Party */
+
+.party {
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.party img {
+  overflow: hidden;
+  max-width: 100%;
+  height: 22rem;
+  text-align: center;
+}
+
+.party p {
+  font-size: 1.8rem;
+  color: black;
+
+}
+
+.name{
+  margin-bottom: 0.25rem;
+  font-family: "Pacifico", serif;
+}
+
+.city {
+  color: rgb(148,119,69) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .party img {
+    height: 15rem;
+  }
