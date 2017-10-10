@@ -245,6 +245,17 @@ body {
   background-color: white;
 }
 
+.hotel img {
+  overflow: hidden;
+  max-width: 100%;
+  height: 22rem;
+  text-align: center;
+}
+
+.hotel img:hover {
+  border: 5px solid rgb(148,119,69);
+}
+
 /* Wedding Party */
 
 .party {
@@ -278,5 +289,20 @@ body {
 
 @media only screen and (max-width: 768px) {
   .party img {
-    height: 15rem;
+    height: 18rem;
   }
+}
+
+/* Registry */
+
+.registry {
+  background-color: white !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .registry img {
+    height: 8rem;
+    width: auto;
+  }
+}
