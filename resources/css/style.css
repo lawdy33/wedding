@@ -346,3 +346,13 @@ body {
     text-align: center;
   }
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  height: 5rem;
+}
+
+footer p {
+  margin-top: 2.5rem;
+}
