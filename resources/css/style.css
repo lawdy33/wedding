@@ -252,6 +252,10 @@ body {
   text-align: center;
 }
 
+.hotel a {
+  color: rgb(148,119,69) !important;
+}
+
 .hotel img:hover {
   border: 5px solid rgb(148,119,69);
 }
