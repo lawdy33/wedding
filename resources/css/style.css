@@ -21,7 +21,7 @@ body {
   color: black !important; /*rgb(255,215,0) !important; rgb(248,215,74) !important;*/
   border: none;
   border-bottom: 4px solid rgb(148,119,69); /*rgb(161,132,84);*/
-  font-family: "Pacifico", sans-serif;
+  font-family: "Permanent Marker", sans-serif; /* Pacifico */
   font-size: 2rem;
 }
 
@@ -99,9 +99,9 @@ body {
 }
 
 #wedding h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: bold;
-  font-family: "Pacifico", serif;
+  font-family: "Permanent Marker", serif; /* Pacifico */
 }
 
 #wedding h2 {
@@ -119,7 +119,7 @@ body {
   width: auto;
 }
 
-#Pacifico {
+/*#Pacifico {
   font-family: 'Pacifico', cursiv
 }
 
@@ -129,7 +129,7 @@ body {
 
 #Amatic {
   font-family: 'Amatic SC', cursive;
-}
+}*/
 
 @media only screen and (max-width: 768px) {
   #wedding h1 {
@@ -154,8 +154,8 @@ body {
 
 .block h2 {
   color: rgb(40,40,40);
-  font-family: "Pacifico", serif;
-  font-size: 2.5rem;
+  font-family: "Permanent Marker", serif; /* Pacifico */
+  font-size: 3rem;
 
 }
 
@@ -171,7 +171,6 @@ body {
 .location p {
   margin-top: 1.5rem;
   color: black;
-  font-family: "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   text-align: justify;
 }
@@ -306,7 +305,8 @@ body {
 
 .name{
   margin-bottom: 0.25rem;
-  font-family: "Pacifico", serif;
+  font-family: "Permanent Marker", serif; /* Pacifico */
+  color: black;
 }
 
 .city {
@@ -340,6 +340,10 @@ body {
   text-align: center;
 }
 
+.registry img:hover {
+  border: 3px solid rgb(148,119,69);
+}
+
 @media only screen and (max-width: 768px) {
   .registry img {
     height: 7rem;
@@ -355,4 +359,14 @@ footer {
 
 footer p {
   margin-top: 2.5rem;
+}
+
+#justin {
+  text-align: right;
+  margin-right: 2rem;
+  font-size: 1.1rem;
+}
+
+footer a {
+  color: black !important;
 }
