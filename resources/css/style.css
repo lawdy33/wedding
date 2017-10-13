@@ -266,6 +266,11 @@ body {
   background-color: white;
 }
 
+.events a {
+  color: black;
+  font-weight: bold;
+}
+
 .hotel img {
   overflow: hidden;
   max-width: 100%;
