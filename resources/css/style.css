@@ -21,8 +21,9 @@ body {
   color: black !important; /*rgb(255,215,0) !important; rgb(248,215,74) !important;*/
   border: none;
   border-bottom: 4px solid rgb(148,119,69); /*rgb(161,132,84);*/
-  font-family: "Permanent Marker", sans-serif; /* Pacifico */
+  font-family: "Josefin Slab", sans-serif; /* Pacifico */
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .nav li a {
@@ -87,7 +88,7 @@ body {
 }
 
 .block h2 {
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 1.3rem 0;
 }
 
 /* Wedding Date */
@@ -101,7 +102,7 @@ body {
 #wedding h1 {
   font-size: 6rem;
   font-weight: bold;
-  font-family: "Permanent Marker", serif; /* Pacifico */
+  font-family: "Josefin Slab", serif; /* Pacifico */
 }
 
 #wedding h2 {
@@ -118,18 +119,6 @@ body {
   height: 28rem;
   width: auto;
 }
-
-/*#Pacifico {
-  font-family: 'Pacifico', cursiv
-}
-
-#Cabin {
-  font-family: 'Cabin', sans-serif;
-}
-
-#Amatic {
-  font-family: 'Amatic SC', cursive;
-}*/
 
 @media only screen and (max-width: 768px) {
   #wedding h1 {
@@ -154,8 +143,9 @@ body {
 
 .block h2 {
   color: rgb(40,40,40);
-  font-family: "Permanent Marker", serif; /* Pacifico */
+  font-family: "Josefin Slab", serif; /* Pacifico */
   font-size: 3rem;
+  font-weight: bold;
 
 }
 
@@ -258,9 +248,12 @@ body {
   .proposal img {
     height: 28rem;
   }
+  .story p {
+    font-size: 1.4rem;
+  }
 }
 
-/* Events/Hotels Block */
+/* Events Block */
 
 .events {
   background-color: white;
@@ -271,6 +264,7 @@ body {
   font-weight: bold;
 }
 
+
 .leftevent {
   text-align: justify;
 }
@@ -279,7 +273,15 @@ body {
   .leftevent {
     font-size: 1.3rem;
   }
+  .events p {
+    font-size: 1.3rem;
+  }
+  .leftevent {
+    text-align: left;
+  }
 }
+
+/* Hotels Block */
 
 .hotel img {
   overflow: hidden;
@@ -290,10 +292,25 @@ body {
 
 .hotel a {
   color: rgb(148,119,69) !important;
+
 }
 
 .hotel img:hover {
   border: 5px solid rgb(148,119,69);
+}
+
+.hotel p {
+  font-size: 1.4rem;
+}
+
+.description {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .hotel p {
+    font-size: 1.2rem;
+  }
 }
 
 /* Wedding Party */
@@ -318,10 +335,21 @@ body {
 
 }
 
-.name{
-  margin-bottom: 0.25rem;
-  font-family: "Permanent Marker", serif; /* Pacifico */
+.party .name {
+  margin-bottom: 0.2rem;
+  font-family: "Josefin Slab", serif;
   color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a .name {
+  margin-bottom: 0.1rem;
+  font-family: "Josefin Slab", serif;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.7;
 }
 
 .city {
@@ -331,6 +359,12 @@ body {
 @media only screen and (max-width: 768px) {
   .party img {
     height: 18rem;
+  }
+  .party .name {
+    font-size: 1.6rem;
+  }
+  .party p {
+    font-size: 1.5rem;
   }
 }
 
@@ -384,4 +418,10 @@ footer p {
 
 footer a {
   color: black !important;
+}
+
+@media only screen and (max-width: 768px) {
+  footer p {
+    font-size: 1.2rem;
+  }
 }
