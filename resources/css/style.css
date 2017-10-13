@@ -271,8 +271,14 @@ body {
   font-weight: bold;
 }
 
-.left {
-  text-align: left;
+.leftevent {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .leftevent {
+    font-size: 1.3rem;
+  }
 }
 
 .hotel img {
